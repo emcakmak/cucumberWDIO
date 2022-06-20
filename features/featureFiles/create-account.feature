@@ -7,3 +7,9 @@ Feature: Signing up to the site
         When I enter my <name> <lastname> <email> and <password>
         And I click the register button
         Then I am taken to My Account page
+
+        Examples:
+            | email                  | name    | lastname  | password  |
+            | testEmail1@hotmail.com | tester1 | lastname1 | password1 |
+            | testEmail2@hotmail.com | tester2 | lastname2 | password2 |
+            | testEmail3@hotmail.com | tester3 | lastname3 | password3 |
