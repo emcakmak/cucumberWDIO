@@ -1,3 +1,4 @@
+//Homepage class
 class Homepage {
 
     URL = "http://automationpractice.com/index.php"
